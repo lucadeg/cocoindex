@@ -5,11 +5,9 @@
 name: Release CocoIndex
 
 on:
-  push:
-    tags:
-      - 'v*'
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
   pages: write

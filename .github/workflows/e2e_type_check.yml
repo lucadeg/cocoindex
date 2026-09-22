@@ -1,22 +1,10 @@
+
 name: E2E Type Check
 
 on:
-  pull_request:
-    branches: [main, v1]
-    paths:
-      - python/**
-      - examples*/**
-      - "*.toml"
-      - ".github/workflows/e2e_type_check.yml"
-  push:
-    branches: [main, v1]
-    paths:
-      - python/**
-      - examples*/**
-      - "*.toml"
-      - ".github/workflows/e2e_type_check.yml"
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 

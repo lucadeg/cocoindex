@@ -1,12 +1,10 @@
+
 name: Fast Check
 
 on:
-  pull_request:
-    branches: [main, v1]
-  push:
-    branches: [main, v1]
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 
